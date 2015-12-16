@@ -1,6 +1,7 @@
 #include <iostream>
 #include "Pot.h"
 #include "Player.h"
+#include "Bet.h"
 using namespace std;
 
 
@@ -11,7 +12,6 @@ void main()
 
 
 	// Take bets
-	Player player; 
-	Pot money; 
-	money.placeBet(player.getName(), player.getBet()); 
+	
+	
 }

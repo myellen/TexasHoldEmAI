@@ -1,5 +1,5 @@
 #include <string>
-
+#include "Bet.h"
 using namespace std; 
 
 #ifndef Pot_h
@@ -8,11 +8,9 @@ class Pot
 {
 public:
 	Pot();
-	string player; 
-	double bet; 
-	void placeBet(string playerName, double betAmt);
-private: 
 
+private: 
+	
 };
 
 #endif //Pot_h

@@ -2,6 +2,7 @@
 
 #include <vector>
 #include <string>
+#include "Bet.h"
 
 using namespace std;
 
@@ -20,8 +21,12 @@ public:
 
 	vector<int> bestHand();
 	int getBet();
+	Bet placeTableBet(); 
+	double betAmt; 
 	//Chip chip;
 	bool inOrOut;
+
+	
 
 };
 

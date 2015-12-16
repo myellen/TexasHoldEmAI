@@ -1,13 +1,9 @@
 #include "Pot.h"
 #include <string> 
+#include "Bet.h"
 
 Pot::Pot()
 {
 
 }
 
-void Pot::placeBet(string playerName, double betAmt)
-{
-	bet = betAmt;
-	player = playerName; 
-}
