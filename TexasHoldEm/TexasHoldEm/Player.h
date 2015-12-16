@@ -13,6 +13,7 @@ public:
 
 	vector<int> hand;
 	string name;
+	string getName(); 
 	int bankroll;
 
 	//CardTable*table
@@ -21,5 +22,6 @@ public:
 	int getBet();
 	//Chip chip;
 	bool inOrOut;
+
 };
 

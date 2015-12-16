@@ -1,12 +1,13 @@
 #include "Pot.h"
-
+#include <string> 
 
 Pot::Pot()
 {
+
 }
 
-
-int Pot::bet()
+void Pot::placeBet(string playerName, double betAmt)
 {
-	return 0; 
+	bet = betAmt;
+	player = playerName; 
 }

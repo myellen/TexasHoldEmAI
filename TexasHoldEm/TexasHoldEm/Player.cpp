@@ -1,5 +1,5 @@
 #include "Player.h"
-
+#include <string> 
 
 
 Player::Player()
@@ -19,4 +19,9 @@ vector<int> Player::bestHand()
 int Player::getBet()
 {
 	return 0;
+}
+
+string Player::getName()
+{
+	return name; 
 }
