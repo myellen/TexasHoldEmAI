@@ -1,7 +1,7 @@
 #include <iostream>
-#include "Pot.h"
-#include "Player.h"
-#include "Bet.h"
+
+#include "CardTable.h"
+
 using namespace std;
 
 
@@ -9,9 +9,7 @@ void main()
 {
 	cout << "Hello World!" << endl;
 
-
-
-	// Take bets
-	
+	CardTable game;
+	game.run();
 	
 }

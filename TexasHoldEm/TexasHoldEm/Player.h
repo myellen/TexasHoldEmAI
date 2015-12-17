@@ -3,6 +3,7 @@
 #include <vector>
 #include <string>
 #include "Bet.h"
+#include "Card.h"
 
 using namespace std;
 
@@ -12,7 +13,7 @@ public:
 	Player();
 	~Player();
 
-	vector<int> hand;
+	vector<Card> hand;
 	string name;
 	string getName(); 
 	int bankroll;

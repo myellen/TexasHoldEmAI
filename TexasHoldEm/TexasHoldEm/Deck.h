@@ -1,10 +1,13 @@
 #pragma once
+#include "Card.h"
+
 class Deck
 {
 public:
 	Deck();
+	~Deck();
 	void shuffle();
-	void deal();
+	Card deal();
 	void revealHand();
 	void sortHand();
 	int rankHand();
@@ -20,8 +23,5 @@ private:
 	bool fullHouse();
 	bool fourOfKind();
 	bool straightFlush();
-
-	~Deck();
-
 };
 
