@@ -15,7 +15,7 @@ Card::~Card()
 
 string Card::getRankAsStr()
 {
-	return " ";
+	return "no rank yet";
 }
 
 int Card::getRank()

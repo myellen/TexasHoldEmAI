@@ -9,6 +9,7 @@ class Deck
 	vector<Card> myDeck;
 public:
 	Deck();
+	~Deck();
 	void shuffle();
 	Card deal();
 	int numberofCards()
@@ -35,8 +36,5 @@ private:
 	bool fullHouse();
 	bool fourOfKind();
 	bool straightFlush();
-
-	~Deck();
-
 };
 
