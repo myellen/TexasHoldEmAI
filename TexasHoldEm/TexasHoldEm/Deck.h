@@ -11,6 +11,15 @@ public:
 	Deck();
 	void shuffle();
 	Card deal();
+	int numberofCards()
+	{
+		return myDeck.size();
+	}
+	void insertCard(int position, Card card)
+	{
+		myDeck.insert(myDeck.begin() + position, card);
+	}
+	
 	//void revealHand();
 	//void sortHand();
 	//int rankHand();
